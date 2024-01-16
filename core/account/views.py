@@ -2,8 +2,6 @@ from rest_framework.generics import GenericAPIView
 from .serializers import CreateUserSerializer
 from rest_framework.response import Response
 from rest_framework import status
-from django.contrib.auth import login
-
 class RegisterUserView(GenericAPIView):
     serializer_class = CreateUserSerializer
     def post(self, request, *args, **kwargs):
