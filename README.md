@@ -27,7 +27,7 @@ Update exist post with pk(you must be author or admin)
 URL: /posts/update/<int:pk>/
 Method: PUT
 
-4. Update Post:
+4. Delete Post:
 Delete exist post with pk(you must be author or admin)
 URL: /posts/delete/<int:pk>/
 Method: DELETE
