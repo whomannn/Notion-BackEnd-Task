@@ -8,9 +8,9 @@ Django Rest Framework simple blog app .
 ### API Endpoints:
 
 1. Create a Post :
-Create a new post(you must authenticate first)
-URL: '/posts/create/'
-Method: POST
+- Create a new post(you must authenticate first)
+- URL: '/posts/create/'
+- Method: POST
 
 2. List Posts : 
 Show List of posts
