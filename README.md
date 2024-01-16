@@ -13,24 +13,24 @@ Django Rest Framework simple blog app .
 - Method: POST
 
 2. List Posts : 
-Show List of posts
-URL: '/posts/list/'
-Method: GET
+- Show List of posts
+- URL: '/posts/list/'
+- Method: GET
 
 3. Retrieve Post :
-Show single post with id
-URL: '/posts/detail/<int:pk>/'
-Method: GET
+- Show single post with id
+- URL: '/posts/detail/<int:pk>/'
+- Method: GET
 
 4. Update Post:
-Update exist post with pk(you must be author or admin)
-URL: '/posts/update/<int:pk>/'
-Method: PUT
+- Update exist post with pk(you must be author or admin)
+- URL: '/posts/update/<int:pk>/'
+- Method: PUT
 
 4. Delete Post:
-Delete exist post with pk(you must be author or admin)
-URL: '/posts/delete/<int:pk>/'
-Method: DELETE
+- Delete exist post with pk(you must be author or admin)
+- URL: '/posts/delete/<int:pk>/'
+- Method: DELETE
 
 
 ## Installation
