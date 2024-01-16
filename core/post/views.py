@@ -1,11 +1,9 @@
-from django.shortcuts import render
 from rest_framework.generics import CreateAPIView,ListAPIView,RetrieveAPIView,UpdateAPIView,DestroyAPIView
 from .serializers import CreateUpdatePostSerializer,ListRetrivePostSerializer
 from post.models import Post
 from rest_framework.permissions import IsAuthenticated
 from .permissions import IsAuthorOrAdmin
 
-# Create your views here.
 
 class CreatePost(CreateAPIView):
     queryset = Post.objects.all()
